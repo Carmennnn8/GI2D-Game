@@ -1720,6 +1720,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4596152094292479807, guid: cf2650c689631486fa8375df285a6139, type: 3}
+      propertyPath: m_text
+      value: Go away, creep! Finn, I saw it over there
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596152094292479807, guid: cf2650c689631486fa8375df285a6139, type: 3}
+      propertyPath: m_fontSize
+      value: 8.95
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2288,6 +2296,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4596152094292479807, guid: cf2650c689631486fa8375df285a6139, type: 3}
+      propertyPath: m_text
+      value: Muhahaha! You thought you could get it that easily?!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596152094292479807, guid: cf2650c689631486fa8375df285a6139, type: 3}
+      propertyPath: m_fontSize
+      value: 8.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2355,6 +2371,14 @@ PrefabInstance:
     - target: {fileID: 4221385131798906292, guid: cf2650c689631486fa8375df285a6139, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596152094292479807, guid: cf2650c689631486fa8375df285a6139, type: 3}
+      propertyPath: m_text
+      value: HONK HONK
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596152094292479807, guid: cf2650c689631486fa8375df285a6139, type: 3}
+      propertyPath: m_fontSize
+      value: 15.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -99282,6 +99306,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1640327156479301165, guid: 25ff22ed88dc840e4b58ccd99d36203f, type: 3}
+      propertyPath: orthographic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1640327156479301165, guid: 25ff22ed88dc840e4b58ccd99d36203f, type: 3}
+      propertyPath: orthographic size
+      value: 25.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6757571919376687387, guid: 25ff22ed88dc840e4b58ccd99d36203f, type: 3}
       propertyPath: m_Name
       value: GameController
@@ -102233,11 +102265,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4596152094292479807, guid: cf2650c689631486fa8375df285a6139, type: 3}
       propertyPath: m_text
-      value: Almost there!
+      value: You're almost there, Finn!!
       objectReference: {fileID: 0}
     - target: {fileID: 4596152094292479807, guid: cf2650c689631486fa8375df285a6139, type: 3}
       propertyPath: m_fontSize
-      value: 15.4
+      value: 10.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -102493,7 +102525,7 @@ Transform:
   m_GameObject: {fileID: 1880133360}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 627.9, y: 68.2, z: 0}
+  m_LocalPosition: {x: 627.9, y: 58.9, z: 0}
   m_LocalScale: {x: 61.455082, y: 40.29166, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102675,7 +102707,7 @@ Transform:
   m_GameObject: {fileID: 1885313018}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 182.5, y: 63.7, z: 0}
+  m_LocalPosition: {x: 182.5, y: 52.6, z: 0}
   m_LocalScale: {x: 57.56521, y: 36.796036, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
