@@ -18,7 +18,7 @@ public class FallingPlatform : MonoBehaviour
     {
         if (!isFalling && collision.collider.gameObject.CompareTag("player"))
         {
-            StartCoroutine(FallingPlatform())
+            StartCoroutine(Fall());
         }
     }
 
@@ -26,6 +26,8 @@ public class FallingPlatform : MonoBehaviour
     {
         isFalling = true;
         yield return new WaitForSeconds(fallWait);
-        rb.bodyType = RugidbodyType2D.Dynamic;
+        rb.bodyType = RigidbodyType2D.Dynamic;
         Destroy(gameObject, destroyWait);
     }
+
+}
