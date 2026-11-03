@@ -24867,7 +24867,7 @@ MonoBehaviour:
   coyoteTime: 0.5
   jumpQueueTime: 0.1
   maxJumpSpeed: 100
-  doubleJumps: 0
+  doubleJumps: 15
   doubleJumpValues:
   - jumpForce: 900
     jumpGravity: 2.5
@@ -29918,9 +29918,9 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: ad4f167658f7e480a8f90fb843ffbd0c, type: 3}
+  m_Sprite: {fileID: 7801524933719713709, guid: 6ae185460fba3ef46ab8e84652076ec5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
